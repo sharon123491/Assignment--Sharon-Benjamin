@@ -11,8 +11,7 @@ This project is part of a data analyst hiring assignment for 1Pay, a digital pay
 - `1pay_analysis.ipynb`: Jupyter Notebook containing all analysis and code.
 - `unified_dataset.csv`: Merged dataset combining users, transactions, and merchants.
 - `README.md`: This instruction file.
-- (Optional) `dashboard.pbix`: Power BI dashboard file (if submitted).
-- `1Pay_Assignment_Report.pdf`: PDF with graphs and business recommendations.
+- `Assignment Report`: PDF with graphs and business recommendations.
 
   How to Run the Notebook
 
@@ -81,19 +80,6 @@ Rule-based logic was applied to flag potentially suspicious transactions:
    - 3 or more failed txns within 5 minutes
 
 > All fraud detection rules were implemented in **Python using pandas**, with SQL pseudocode included for reference.
-
----
-
-## Dashboard Overview (Power BI)
-
-Created a multi-page dashboard in Power BI with the following pages:
-
-1. **Transaction Trends**: Monthly volume & value line charts
-2. **Fraud Alerts**: Tables filtered by fraud flag
-3. **Geographic Heatmap**: State-wise active usage
-4. **Cohort Funnel**: Signup month vs transaction month matrix (retention funnel)
-
-> `TxnMonth` and `SignupMonth` were created using DAX in Power BI.
 
 ---
 
